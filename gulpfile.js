@@ -21,13 +21,6 @@ function otimizaImagens() {
         .pipe(gulp.dest('build/images'));
 }
 
-// Função para comprimir imagens
-function comprimeImagens() {
-    return gulp.src('source/images/*')
-        .pipe(imagemin()) // Otimiza as imagens sem especificações
-        .pipe(gulp.dest('./build/images')); // Destino das imagens otimizadas
-}
-
 // Exporta as tarefas para que possam ser chamadas pelo Gulp
 exports.sass = compilaSass;
 exports.imagemin = otimizaImagens;
