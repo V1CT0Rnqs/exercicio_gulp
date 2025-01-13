@@ -7,16 +7,20 @@
     "sass": "gulp sass",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Seu Nome",
   "license": "ISC",
-  "description": "",
+  "description": "Projeto de exemplo usando Gulp",
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-imagemin": "^7.1.0",
+    "gulp-newer": "^1.4.0",
     "gulp-obfuscate": "^0.2.9",
     "gulp-sass": "^6.0.0",
     "gulp-sourcemaps": "^3.0.0",
     "gulp-uglify": "^3.0.2",
     "sass": "^1.83.1"
+  },
+  "dependencies": {
+    "gulp-plumber": "^1.2.1"
   }
 }
